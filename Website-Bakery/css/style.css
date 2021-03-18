@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+*{
+    margin:0;padding:0;
+    box-sizing:border-box
+}
+body{
+    font-family:'Alegreya Sans', sans-serif
+}
+
+/* general class*/
+.container{
+    width:80%;height:100%;
+    margin:auto
+}
+
+/* header section */
+.header-section{
+    width:100%;height:1000px
+}
+.logo-image{
+    width:60%;height:100%;
+    float:left
+}
+.logo-image img{
+    padding-top:20px;
+    width:25%
+}
+.nav-header{
+    width:40%;height:100%;
+    float:left
+}
+.nav-header ul{
+    list-style:none
+}
+.nav-header ul li{
+    display:inline-block 
+}
+.nav-header ul li a{
+    text-decoration:none;
+    padding:40px 15px;
+    display:block;
+    font-size:18px;
+    font-weight:500;
+    color:#ffffff
+}
+.nav-header ul li a:hover{
+    color: #8e7754
+}
+.background-header{
+    width:100%;height:100%;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size:cover;
+    position:relative
+}
+.background-content{
+    position:absolute;
+    top:50%;left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+    padding-top:80px
+}
+.background-content .p1{
+    font-size:32px;
+    font-weight:200;
+    padding-bottom:15px
+}
+.background-content h1{
+    font-size:68px;
+    font-family:"Alegreya";
+    font-weight:400;
+    padding-bottom:15px  
+}
+.background-content .p2{
+    color:rgba(255,255,255, .92);
+    font-size:26px;
+    line-height:1.5;
+    font-weight:200;
+    padding-bottom:15px
+}
+.background-content .button{
+    border:none;
+    padding:15px 28px;
+    border-radius:5px;
+    font-size:16px;
+    font-family:"Alegreya Sans";
+    font-weight:700;
+    color:#ffffff;
+    cursor: pointer  
+}
+.background-content .button-left{
+    background-color: #8e7754;
+    margin-right:10px;
+    border:1px solid #8e7754
+}
+.background-content .button-left:hover{
+    background-color:#ffffff;
+    color:#686868
+}
+.background-content .button-right{
+    background-color:#30303000;
+    border:1px solid #ffffff
+}
+.background-content .button-right:hover{
+    background-color:#ffffff;
+    color:#686868
+}
+.box-right{
+    width:40px;height:60px;
+    position:fixed;
+    top:100px;
+    right:0px
+}
+.icon-right{
+    width:90%;height:60%;
+    padding:10px 0 0 6px ;
+    font-size:18px;
+    color:#686868;
+    cursor:pointer;
+    background-color:#ffffff 
+}
+
+/* content section */
+.content-section{
+    width:100%;height:800px
+}
+.content-section-details{
+    width:100%;height:100%;
+    overflow:hidden
+}
+.content-left{
+    width:50%;height:100%;
+    float:left;
+    padding-top:10%  
+}
+.content-left img{
+    width:100%;height:80%
+}
+.content-right{
+    width:50%;height:100%;
+    padding:10% 0 0 5%;
+    float:left 
+}
+.content-paragraph{
+    width:100%;height:30%;
+    padding-top:10%
+}
+.content-paragraph h2{
+    color: #303030;
+    font-family:"Alegreya";
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:2.5%
+}
+.content-paragraph p{
+    color:#686868;
+    font-size:17px;
+    line-height:1.7em
+}
+.icon-content{
+    width:100%;height:70%;
+    padding-top:3%
+}
+.icon-content ul{
+    list-style:none;
+    margin-bottom:2.5%
+}
+.icon-content ul li{
+    text-decoration:none;
+    display:inline-block;
+    font-size:20px
+}
+.icon-content ul li p{
+    padding:0 0 10px 10px;
+    font-size:17px;
+    font-weight:200;
+    color:#686868
+}
+.icon-content ul li i{
+    border:1px solid gray;
+    border-radius:50%;
+    color:#8e7754;
+    padding:14px
+}
+
+/* location section */
+.location-section{
+    width:100%;height:800px;
+    background-color:#f8f8f8
+}
+.location-section-details{
+    width:100%;height:100%;
+    overflow:hidden
+}
+.location-left{
+    width:50%;height:100%;
+    float:left;
+    padding:20% 0 0 2%
+}
+.location-left h2{
+    color: #303030;
+    font-family:"Alegreya";
+    font-size:30px;
+    font-weight:400;
+    margin-bottom:2.5%
+}
+.location-left p{
+    color:#686868;
+    font-size:17px;
+    line-height:1.7em;
+    margin-bottom:20px
+}
+.location-right{
+    width:50%;height:100%;
+    float:left;
+    padding-top:5% 
+}
+.location-right img{
+    width:100%;height:80%;
+    margin-left:10px
+}
+
+/* baking section */
+.baking-section{
+    width:100%;height:800px
+}
+.baking-top{
+    width:100%;height:30%;
+    text-align:center;
+    padding:5% 0 5% 0
+}
+.baking-top h3{
+    color: #303030;
+    font-family:"Alegreya";
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:2.5%
+}
+.baking-top p{
+    color:#686868;
+    font-size:17px
+}
+.baking-bottom{
+    width:100%;height:70%;
+    overflow: hidden
+}
+.baking-bottom-content{
+    width:33.33%;height:100%;
+    float:left;
+    text-align:center
+}
+.baking-bottom-content img{
+    width:90%;height:60%
+   
+}
+.baking-bottom-content h4{
+    color: #303030;
+    font-family:"Alegreya";
+    font-size:20px;
+    font-weight:300;
+    margin-top:3%
+}
+.baking-bottom-content p{
+    color:#686868;
+    font-size:17px;
+    line-height:1.7em;
+    margin-top:3%
+}
+
+
+/* contact section */
+.contact-info{
+    width:100%;height:800px;
+    background-color:#f8f8f8
+}
+.contact-info-details{
+    width:100%;height:100%;
+    overflow: hidden
+}
+.contact-info-left{
+    width:50%;height:100%;
+    float:left;
+    padding-top:12%
+}
+.contact-info-left h2{
+    color: #303030;
+    font-family:"Alegreya";
+    font-size:32px;
+    font-weight:400;
+    margin-bottom:5%
+}
+.contact-info-left p{
+    color:#686868;
+    font-size:19px;
+    line-height:1.6em;
+    font-weight:300;
+    font-family:"Alegreya Sans";
+    margin-bottom:3%
+}
+.contact-info-right{
+    width:50%;height:100%;
+    float:left;
+    padding-top:10%
+}
+.contact-icon-content ul{
+    list-style:none;
+    margin-bottom:2.5%
+}
+.contact-icon-content ul li{
+    text-decoration:none;
+    display:inline-block;
+    font-size:20px
+}
+.contact-icon-content ul li p{
+    padding:0 0 10px 10px;
+    font-family: "Alegreya Sans";
+    font-size:17px;
+    font-weight:200;
+    color:#686868
+}
+.contact-icon-content ul li i{
+    color:#ffffff;
+    background-color:#8e7754;
+    border-radius:50%;
+    padding:14px
+
+}
+
+/* footer section */
+.footer-section{
+    width:100%;height:800px;
+    overflow:hidden
+}
+.footer-top{
+    width:100%;height:60%;
+    background-color:#403d38
+}
+.footer-top-details{
+    width:100%;height:100%;
+    overflow:hidden;
+    padding-top:10%
+}
+.footer-top-content{
+    width:23%;height:100%;
+    margin-right:18px;
+    float:left
+}
+
+.footer-top-content h4{
+    color:#ffffff;
+    font-family:"Alegreya";
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:10%
+}
+.footer-top-content p{
+    color:#969696;
+    font-size:16px;
+    line-height:1.6em;
+    font-weight:300;
+    font-family:"Alegreya Sans";
+    margin-bottom:5%
+}
+.footer-top-content ul{
+    list-style:none;
+    color:#969696
+}
+.footer-top-content ul li{
+    margin:2% 0 5% 0;
+    font-size:17px
+} 
+.footer-part4{
+    width:100%;height:15%;
+    overflow:hidden 
+}
+.footer-pd{
+    padding-top:5%
+}
+.footer-part4-left{
+    width:10%;height:100%;
+    float:left
+}
+.footer-part4-left i{
+    color:#969696;
+    margin:15% 0 20% 20%
+}
+.footer-part4-right{
+    width:90%;height:1000%;
+    float:left
+}
+.footer-part4-right p{
+    color:#969696;
+    font-size:16px;
+    line-height:1.3em;
+    font-weight:300;
+    font-family:"Alegreya Sans";
+    margin-bottom:5%
+}
+.footer-bottom{
+    width:100%;height:70%;
+    padding-top:3%;
+    text-align:center;
+    background-color: #353330
+}
+.footer-bottom p{
+    color:#969696;
+    font-size:17px;
+    font-weight:300;
+    font-family:"Alegreya Sans";
+    margin-top:2%
+}
+.footer-bottom ul{
+    list-style:none
+}
+.footer-bottom ul li{
+    display:inline-block; 
+    margin:2.5% 0.6% 0 0 
+}
+.footer-bottom ul li a{
+    text-decoration:none;
+    padding:14px;
+    border-radius:50%;
+    background-color:#403d38;
+    color:#ffffff
+}
+.footer-bottom ul li a:hover{
+    background-color:#8e7754
+}
